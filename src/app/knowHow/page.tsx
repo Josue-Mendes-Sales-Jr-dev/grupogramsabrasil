@@ -38,7 +38,7 @@ export default function KnowHow(){
               <H1 className="text-white w-[20rem] sm:w-[10rem] text-center text-[2rem] border-solid border-b-4">
                 GRAMSA
               </H1>
-              <div className="w-[70%] text-center lg:w-[80%]  text-black sm:columns-2 lg:columns-3">
+              <div className="w-[70%] text-center lg:w-[85%] flex flex-col items-center gap-5 justify-between text-black sm:columns-2 lg:columns-3">
                 <p className="bg-white p-10 rounded-md">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et recusandae impedit natus dicta laborum quidem adipisci, animi in! Rerum, enim voluptatum! A tempora inventore et sint pariatur asperiores iste ut!
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et recusandae impedit natus dicta laborum quidem adipisci, animi in! Rerum, enim voluptatum! A tempora inventore et sint pariatur asperiores iste ut!

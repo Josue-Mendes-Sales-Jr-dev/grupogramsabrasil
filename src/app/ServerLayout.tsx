@@ -4,7 +4,7 @@ import { Metadata } from "next";
 // Definindo metadados para a página
 export const metadata: Metadata = {
   title: "Gramsa",
-  description: "Sua empresa de engenharia e consultoria",
+  description: "O grupo gramsa é uma empresa de engenharia e consultoria",
 };
 
 // Componente de layout do servidor
