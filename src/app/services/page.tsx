@@ -19,12 +19,14 @@ const Map = dynamic(() => import('../../components/map'), { ssr: false });
 import Imag from '../../../images/mina.jpg';
 import Imag01 from '../../../images/mina3.jpg';
 import Imag02 from '../../../images/ludmila03.jpeg';
-import Imag03 from '../../../images/ludmila04.jpeg';
-import Imag04 from '../../../images/jun01.jpeg';
+import Imag03 from '../../../images/imgGramsa01.jpg';
+import Imag04 from '../../../images/gr03.jpeg';
 import Imag05 from '../../../images/jun02.jpeg';
 import Imag06 from '../../../images/gramsa rubens.jpeg';
-import Imag07 from '../../../images/mina4.avif';
-import Imag08 from '../../../images/m1.jpg';
+import Imag07 from '../../../images/imgGramsa03.jpg';
+import Imag08 from '../../../images/imgGramsa04.jpg';
+import Imag09 from '../../../images/gramsa1.jpeg';
+import Imag10 from '../../../images/gr04.jpeg';
 import ProgressBar from "@/components/progressBar";
 import CircularProgressBar from "@/components/CircularProgressBar";
 import ProgressNumber from "@/components/progressBar";
@@ -116,10 +118,10 @@ export default function Services() {
         <H1 className="text-center text-3xl text-blue-400">Nossos Serviços</H1>
         <div className="w-full min-h-[120vh] p-10 grid gap-10 grid-rows-3 sm:grid-cols-2 lg:grid-cols-3">
           <CardService01 img={Imag03} />
-          <CardService01 img={Imag01} />
+          <CardService01 img={Imag10} />
           <CardService01 img={Imag02} />
-          <CardService01 img={Imag03} />
           <CardService01 img={Imag04} />
+          <CardService01 img={Imag09} />
           <CardService01 img={Imag05} />
           <CardService01 img={Imag06} />
           <CardService01 img={Imag07} />

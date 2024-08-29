@@ -1,7 +1,7 @@
 import Imag from "../../../images/GRAMSA01.jpg";
 import Imag04 from "../../../images/gramsa Ludmila.jpeg";
-import Imag02 from "../../../images/GRAMSA06.png";
-import Imag03 from "../../../images/GRAMSA05.png";
+import Imag02 from "../../../images/imgGramsa04.jpg";
+import Imag03 from "../../../images/imgGramsa01.jpg";
 import CardAbout from "@/components/cardAbout";
 import CardAbout02 from "@/components/cardAbout02";
 import Wallpaper from "@/components/wallpaper";

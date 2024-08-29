@@ -5,6 +5,8 @@ import { PiStarThin } from "react-icons/pi";
 import Imag02 from "../../images/GRAMSA01.jpg";
 import Imag03 from "../../images/GRAMSA02.jpg";
 import Imag04 from "../../images/GRAMSA05.png";
+import Imag05 from "../../images/imgGramsa01.jpg";
+import Imag06 from "../../images/imgGramsa02.jpg";
 import Carousel from "@/components/carousel";
 import Testimonials from "@/components/testimonials";
 import CardFlip from "@/components/cardFlip";
@@ -22,10 +24,10 @@ export default function Home() {
           <Card title="Excelência" subtitle="Trabalhos entregues dentro do prazo e com ótima experiência" img={Imag02}>
             <CardFlip textBack="Colaboração e solidariedade" textFront="Consultoria" />
           </Card>
-          <Card title="Versionamento" subtitle="Trabalhos com alta compatibilidade" img={Imag04}>
+          <Card title="Versionamento" subtitle="Trabalhos com alta compatibilidade" img={Imag06}>
             <CardFlip textBack="Colaboração e solidariedade" textFront="Qualidade de Entrega" />
           </Card>
-          <Card title="Inovação" subtitle="Tecnologia de alto nível" img={Imag03}>
+          <Card title="Inovação" subtitle="Tecnologia de alto nível" img={Imag05}>
             <CardFlip textBack="Colaboração e solidariedade" textFront="Alto Impacto" />
           </Card>
           <Card title="Sucesso do Cliente" subtitle="Trabalhos com alta compatibilidade" img={Imag04}>

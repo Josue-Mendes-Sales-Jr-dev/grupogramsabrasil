@@ -28,7 +28,7 @@ export default function CardAbout02(props:CardAboutPropos){
                {props.text3}               </p>
              </div>
              <div className="md:w-[50%] pb-10 md:pb-0">
-             <Image className="w-[100%] sm:min-h-[80vh]" src={props.imag} width={1500} height={1000} alt="about" />
+             <Image className="w-[100%] sm:min-h-[80vh] object-cover" src={props.imag} width={1500} height={1000} alt="about" />
             </div>
           </div>
         </>

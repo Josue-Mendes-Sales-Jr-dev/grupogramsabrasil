@@ -11,7 +11,7 @@ export default function CardService01(props:ICardProps){
     return(
         <>
         <div className="rounded-sm w-[95%] h-[22rem] shadow-3xl">
-                <Image src={props.img} className="rounded-sm w-[100%] h-[80%] hover:scale-110 transition-transform duration-500" width={500} height={500} alt="13"/>
+                <Image src={props.img} className="rounded-sm w-[100%] h-[80%] hover:scale-110 object-cover transition-transform duration-500" width={500} height={500} alt="13"/>
                  <div className="w-[100%] h-[20%] bg-blue-950 opacity-90">
                   <div className="flex flex-col items-center justify-center w-[95%] h-[90%]">
               
